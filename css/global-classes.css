@@ -1,0 +1,125 @@
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.container-1070 {
+  max-width: 1070px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.container-1070 {
+  max-width: 1070px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.padd {
+  padding: 80px 0 80px;
+}
+.title {
+  font-family: "ALSSchlangesans-Bold";
+  font-size: 50px;
+  line-height: 105%;
+  font-weight: 400;
+  color: var(--text);
+  text-align: center;
+}
+.subtitle {
+  font-family: "ALSSchlangesans-Bold";
+  font-size: 32px;
+  line-height: 105%;
+  font-weight: 400;
+  color: var(--text);
+}
+.freetitle {
+  font-family: "Gotham Pro";
+  font-size: 20px;
+  line-height: 105%;
+  font-weight: 500;
+  color: var(--text);
+}
+.text {
+  font-family: "Gotham Pro";
+  font-size: 15px;
+  line-height: 150%;
+  font-weight: 400;
+  color: var(--text);
+}
+.btn {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 118%;
+  padding: 27px 56px;
+  letter-spacing: 1.38px;
+  color: var(--text-w);
+  border-radius: 90px;
+  background: var(--bb-linear);
+  box-shadow: 0px 6px 21px 0px rgba(104, 130, 245, 0.67);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn:hover {
+  background: var(--4, linear-gradient(73deg, #864ff1 0%, #49b3f7 100%));
+}
+
+/* ====== Медиа 1140px ====== */
+@media (max-width: 1140px) {
+  .subtitle {
+    font-size: 26px;
+  }
+}
+/* ====== Медиа 990px ====== */
+@media (max-width: 990px) {
+  .title {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 26px;
+  }
+}
+/* ====== Медиа 768px ====== */
+@media (max-width: 768px) {
+  .padd {
+    padding: 70px 0 70px;
+  }
+  .title {
+    font-size: 38px;
+  }
+}
+/* ====== Медиа 650px ====== */
+@media (max-width: 650px) {
+  .subtitle {
+    font-size: 24px;
+  }
+}
+/* ====== Медиа 450px ====== */
+@media (max-width: 450px) {
+  .padd {
+    padding: 50px 0 50px;
+  }
+  .title {
+    font-size: 8vw;
+  }
+  .freetitle {
+    font-size: 18px;
+  }
+}
+/* ====== Медиа 400px ====== */
+@media (max-width: 400px) {
+  .padd {
+    padding: 50px 0 50px;
+  }
+  .btn {
+    padding: 25px 56px;
+  }
+  .freetitle {
+    font-size: 17px;
+  }
+}
+

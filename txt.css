@@ -1,0 +1,95 @@
+
+.container {
+   max-width: 1410px;
+   padding: 0 15px;
+   margin: 0 auto;
+ }
+ .padd {
+   padding: 80px 0;
+   min-height: 300px;
+ }
+ .title-1 {
+   font-weight: 400;
+   font-size: 45px;
+   line-height: 122%;
+   color: var(--st);
+ }
+ .title-2 {
+   font-weight: 400;
+   font-size: 45px;
+   line-height: 122%;
+   color: var(--rw);
+ }
+ .title-1middle {
+   font-weight: 400;
+   font-size: 45px;
+   line-height: 122%;
+   color: var(--st);
+   text-align: center;
+ }
+ .title-2middle {
+   font-weight: 400;
+   font-size: 45px;
+   line-height: 122%;
+   color: var(--rw);
+   text-align: center;
+ }
+ 
+ .text-repeat {
+   font-size: 20px;
+   line-height: 150%;
+ }
+ 
+ /* ======= Глобальные классы ======= */
+ :root {
+   /* ================== */
+   --burger: #ffffff;
+   /* ================== */
+   --st: #ffffff;
+   --sm: #e9e9e9;
+   --br: #F5F5F5;
+   --sn: #c3b9b5;
+   --sv: #EEEEEE;
+   --sr: #484848;
+   --sk: #545454;
+   --rw: #000000;
+   --bg: #262626;
+   --bb: #FEB700;
+   --blu: #2F93FF;
+   --ya: #C7E2FB;
+   --bg-dark: #1D1D1D;
+   --bg-coc: #C0C0C0;
+   --bg-pin: #FFF2F2;
+ }
+ 
+ .btn {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 125%;
+   letter-spacing: 1px;
+   color: var(--st);
+   background: var(--bb);
+   border-radius: 45px;
+   -webkit-border-radius: 45px;
+   -moz-border-radius: 45px;
+   -ms-border-radius: 45px;
+   -o-border-radius: 45px;
+   transition: all 0.5s ease;
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -ms-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   min-width: 280px;
+   height: 56px;
+   border: 2px solid var(--st);
+   cursor: pointer;
+ }
+ 
+ .btn:hover {
+   background: #3d3d3d;
+   /* background: var(--text-dark); */
+   color: var(--st);
+ }

@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Gotham Pro";
+  src: local("../font/GothamPro/Gotham Pro Regular"),
+    local("../font/GothamPro/Gotham-Pro-Regular"),
+    url("../font/GothamPro/GothamPro.woff2") format("woff2"),
+    url("../font/GothamPro/GothamPro.woff") format("woff"),
+    url("../font/GothamPro/GothamPro.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gotham Pro";
+  src: local("../font/GothamPro-Medium/GothamPro-Medium"),
+    local("../font/GothamPro-Medium/GothamPro-Medium"),
+    url("../font/GothamPro-Medium/GothamPro-Medium.woff2") format("woff2"),
+    url("../font/GothamPro-Medium/GothamPro-Medium.woff") format("woff"),
+    url("../font/GothamPro-Medium/GothamPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gotham Pro";
+  src: local("../font/GothamPro-Bold/GothamPro-Bold"),
+    local("../font/GothamPro-Bold/GothamPro-Bold"),
+    url("../font/GothamPro-Bold/GothamPro-Bold.woff2") format("woff2"),
+    url("../font/GothamPro-Bold/GothamPro-Bold.woff") format("woff"),
+    url("../font/GothamPro-Bold/GothamPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ALSSchlangesans";
+  src: local("../font/ALSSchlangesans/ALSSchlangesans"),
+    local("../font/ALSSchlangesans/ALSSchlangesans"),
+    url("../font/ALSSchlangesans/ALSSchlangesans.woff2")
+      format("woff2"),
+    url("../font/ALSSchlangesans/ALSSchlangesans.woff") format("woff"),
+    url("../font/ALSSchlangesans/ALSSchlangesans.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ALSSchlangesans-Bold";
+  src: local("../font/ALSSchlangesans-Bold/ALSSchlangesans-Bold"),
+    local("../font/ALSSchlangesans-Bold/ALSSchlangesans-Bold"),
+    url("../font/ALSSchlangesans-Bold/ALSSchlangesans-Bold.woff2")
+      format("woff2"),
+    url("../font/ALSSchlangesans-Bold/ALSSchlangesans-Bold.woff") format("woff"),
+    url("../font/ALSSchlangesans-Bold/ALSSchlangesans-Bold.ttf")
+      format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* =========================================================================================== */
+
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gotham Pro";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+html {
+  scroll-behavior: smooth;
+  /* scrollbar-color: #2e9aff #f498ad; */
+}
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-track {
+  background: var(--bg-green);
+}
+html::-webkit-scrollbar-thumb {
+  background: var(--text-bl);
+}
+a {
+  text-decoration: none;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+button {
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  cursor: pointer;
+}

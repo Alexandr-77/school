@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ALS Schlange Sans';
+    src: local('ALS Schlange Sans Regular'), local('ALS-Schlange-Sans-Regular'),
+        url('ALSSchlangesans.woff2') format('woff2'),
+        url('ALSSchlangesans.woff') format('woff'),
+        url('ALSSchlangesans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
